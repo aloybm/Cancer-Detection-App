@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="8dp"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall">
+
+    <ImageView
+        android:id="@+id/tvImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        tools:src="@tools:sample/avatars"
+        android:contentDescription="@string/empty" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resultlist"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/delete_button_description"
+        android:padding="8dp"
+        android:src="@android:drawable/ic_menu_delete" />
+
+</LinearLayout>
