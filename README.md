@@ -13,7 +13,8 @@ App to share and discover stories from every users.
 - ViewPager2 for Cancer News View
 
 ## Screenshots
-![image](https://github.com/aloybm/Cancer-Detection-App/assets/100351038/0b76ffbb-5155-4e0c-99fe-475f515287eb)
+![image](https://github.com/user-attachments/assets/beabd465-10f1-4308-a2ac-79e0f6e8bcc4)
+
 
 ## Getting Started 
 - Clone this repository
